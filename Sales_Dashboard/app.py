@@ -100,6 +100,10 @@ hide_st_style = """
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
             header {visibility: hidden;}
+            
+            .stApp {
+                background-color: #00172B;
+            }
             </style>
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
