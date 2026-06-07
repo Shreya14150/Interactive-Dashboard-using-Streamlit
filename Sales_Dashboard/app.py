@@ -75,6 +75,7 @@ fig_product_sales = px.bar(
 fig_product_sales.update_layout(
   plot_bgcolor="#00172B",
     paper_bgcolor="#00172B",
+     font_color="white",
     xaxis=(dict(showgrid=False))
 )
 # SALES BY HOUR [BAR CHART]
@@ -91,6 +92,7 @@ fig_hourly_sales.update_layout(
     xaxis=dict(tickmode="linear"),
    plot_bgcolor="#00172B",
     paper_bgcolor="#00172B",
+     font_color="white",
     yaxis=(dict(showgrid=False)),
 )
 left_column, right_column = st.columns(2)
