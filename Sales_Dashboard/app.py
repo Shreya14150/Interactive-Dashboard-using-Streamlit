@@ -114,10 +114,27 @@ right_column.plotly_chart(fig_product_sales, use_container_width=True)
 
 # ---- HIDE STREAMLIT STYLE ----
 hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    
+    .stApp {
+        background-color: #0E1117;
+        color: white;
+    }
+    [data-testid="stSidebar"] {
+        background-color: #1B6CA8;
+    }
+    [data-testid="stSidebar"] * {
+        color: white !important;
+    }
+    </style>
+"""
 st.markdown(hide_st_style, unsafe_allow_html=True)
+
+
+
+
+
+
