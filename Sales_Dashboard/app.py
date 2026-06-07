@@ -94,8 +94,6 @@ fig_hourly_sales.update_layout(
     xaxis=dict(tickmode="linear"),
    plot_bgcolor="#00172B",
     paper_bgcolor="#00172B",
-font=dict(color="#FFF"),
-
     yaxis=(dict(showgrid=False)),
 )
 left_column, right_column = st.columns(2)
