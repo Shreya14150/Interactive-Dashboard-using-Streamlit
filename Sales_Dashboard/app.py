@@ -71,6 +71,8 @@ fig_product_sales = px.bar(
     title="<b>Sales by Product Line</b>",
     color_discrete_sequence=["#CB58E4"] * len(sales_by_product_line),
     template="plotly_white",
+    font=dict(color="#FFF"),
+
 )
 fig_product_sales.update_layout(
   plot_bgcolor="#00172B",
@@ -88,6 +90,8 @@ fig_hourly_sales = px.bar(
     title="<b>Sales by hour</b>",
     color_discrete_sequence=["#CB58E4"] * len(sales_by_hour),
     template="plotly_white",
+    font=dict(color="#FFF"),
+
 )
 fig_hourly_sales.update_layout(
     xaxis=dict(tickmode="linear"),
