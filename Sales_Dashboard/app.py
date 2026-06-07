@@ -73,7 +73,8 @@ fig_product_sales = px.bar(
     template="plotly_white",
 )
 fig_product_sales.update_layout(
-    plot_bgcolor="rgba(0,0,0,0)",
+  plot_bgcolor="#00172B",
+    paper_bgcolor="#00172B",
     xaxis=(dict(showgrid=False))
 )
 # SALES BY HOUR [BAR CHART]
@@ -88,7 +89,8 @@ fig_hourly_sales = px.bar(
 )
 fig_hourly_sales.update_layout(
     xaxis=dict(tickmode="linear"),
-    plot_bgcolor="rgba(0,0,0,0)",
+   plot_bgcolor="#00172B",
+    paper_bgcolor="#00172B",
     yaxis=(dict(showgrid=False)),
 )
 left_column, right_column = st.columns(2)
