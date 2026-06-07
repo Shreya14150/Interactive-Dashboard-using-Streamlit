@@ -103,6 +103,19 @@ hide_st_style = """
             
             .stApp {
                 background-color: #00172B;
+                color: white;
+            }
+            [data-testid="stSidebar"] {
+                background-color: #0083B8;
+            }
+            [data-testid="stSidebar"] * {
+                color: white !important;
+            }
+            h1, h2, h3 {
+                color: white !important;
+            }
+            span[data-baseweb="tag"] {
+                background-color: #E694FF !important;
             }
             </style>
             """
